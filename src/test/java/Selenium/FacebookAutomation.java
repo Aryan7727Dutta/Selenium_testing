@@ -18,6 +18,8 @@ public class FacebookAutomation {
     public void setup() {
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
+        WebDriverManager.chromedriver().setup();
+        driver = new ChromeDriver();
         System.out.println("Browser Opened");
     }
 
